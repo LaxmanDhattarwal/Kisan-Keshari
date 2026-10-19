@@ -1,0 +1,19 @@
+
+{
+  "name": "kisan-keshari",
+  "version": "1.0.0",
+  "private": true,
+  "description": "AI-powered agricultural marketplace with crop disease detection and voice assistance",
+  "engines": {
+    "node": ">=24"
+  },
+  "workspaces": [
+    "apps/*",
+    "services/workers",
+    "packages/*"
+  ],
+  "scripts": {
+    "check:node": "node --version",
+    "check:npm": "npm --version"
+  }
+}
